@@ -2,7 +2,7 @@ package com.betrybe.currencyview.ui.views.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.betrye.currencyview.R
+import com.betrybe.currencyview.R
 
 class MainActivity : AppCompatActivity() {
 
