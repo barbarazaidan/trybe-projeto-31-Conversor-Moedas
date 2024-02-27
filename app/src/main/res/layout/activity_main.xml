@@ -62,5 +62,19 @@
             android:text="Selecione uma moeda."
             android:textSize="16sp"
             android:visibility="gone" />
+
+        <FrameLayout
+            android:id="@+id/waiting_response_state"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <com.google.android.material.progressindicator.CircularProgressIndicator
+                android:id="@+id/waiting_response_progress"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:indeterminate="true" />
+        </FrameLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
