@@ -52,5 +52,15 @@
             android:text="Carregando moedas..."
             android:textSize="16dp"
             android:visibility="gone" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/select_currency_state"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text="Selecione uma moeda."
+            android:textSize="16sp"
+            android:visibility="gone" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
