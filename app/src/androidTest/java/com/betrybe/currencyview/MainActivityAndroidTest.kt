@@ -136,7 +136,7 @@ class MainActivityAndroidTest {
             .check(matches(withText("Selecione uma moeda.")))
             // O elemento MaterialTextView possui o texto centralizado?
             .check(matches(withMaterialTextViewGravityEqualsToCenter()))
-            // O elemento MaterialTextView possui o tamanho do texto igual a 16dp?
+            // O elemento MaterialTextView possui o tamanho do texto igual a 16sp?
             .check(matches(withMaterialTextViewTextSizeEqualsTo(16)))
     }
 
